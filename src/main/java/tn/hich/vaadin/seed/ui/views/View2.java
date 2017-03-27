@@ -6,11 +6,9 @@ import com.vaadin.icons.VaadinIcons;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringView;
-import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.ui.VerticalLayout;
 
 @SpringView(name=View2.VIEW_NAME)
-@UIScope
 public class View2 extends VerticalLayout implements View{
 	
 	public static final String VIEW_NAME = "view2";
